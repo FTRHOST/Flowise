@@ -1,0 +1,6 @@
+{
+  "builds": [
+    { "src": "apps/express-app/package.json", "use": "@vercel/node" }
+  ],
+  "routes": [{ "src": "/(.*)", "dest": "apps/express-app" }]
+}
